@@ -1,0 +1,18 @@
+#include<iostream.h>
+#include<conio.h>
+
+void main()
+{
+  int a, b , temp;
+ cout<<"Enter the two nos.";
+cin>>a;
+cin>>b;
+temp=a;
+a=b;
+b=temp;
+cout<<"The swapped nos. are \n" ;
+ cout<<a<<endl;
+cout<<b<<endl;
+ getch();
+}
+
